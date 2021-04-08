@@ -6,6 +6,12 @@
 // IMPLEMENTATION:
 //  Calculate: miles_driven/refilled_gallons
 
+use std::env;
+
 fn main() {
-    println!("Welcome to the Fuel Consumption Calculator!\nPress <ENTER> to continue...");
+    // println!("Welcome to the Fuel Consumption Calculator!\nPress <ENTER> to continue...");
+
+    let args: Vec<String> = env::args().collect();
+    println!("{:?}", args);
+
 }
