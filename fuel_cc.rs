@@ -6,3 +6,6 @@
 // IMPLEMENTATION:
 //  Calculate: miles_driven/refilled_gallons
 
+fn main() {
+    println!("Welcome to the Fuel Consumption Calculator!\nPress <ENTER> to continue...");
+}
