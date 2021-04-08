@@ -2,12 +2,12 @@
 
 // Fuel Consumption Calculator
 // INTERFACES
-//  INPUTS:    {start_miles, end_miles, refilled_gallons}
-//  OUTPUTS:   {miles_driven, refilled_gallons, miles_per_gallon}
+//  INPUTS:    {_start_miles, _end_miles, _refilled_gallons}
+//  OUTPUTS:   {_miles_driven, _refilled_gallons, _miles_per_gallon}
 //
 // IMPLEMENTATION:
-//  Calculate:  miles_driven = end_miles - start_miles
-//              vehicle_milage = miles_driven/refilled_gallons
+//  Calculate:  _miles_driven = _end_miles - _start_miles
+//              _miles_per_gallon = _miles_driven/_refilled_gallons
 
 use std::env;
 
