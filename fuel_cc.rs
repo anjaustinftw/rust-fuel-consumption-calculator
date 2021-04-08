@@ -4,7 +4,8 @@
 //  OUTPUTS:   {miles_driven, refilled_gallons, miles_per_gallon}
 //
 // IMPLEMENTATION:
-//  Calculate: miles_driven/refilled_gallons
+//  Calculate:  miles_driven = end_miles - start_miles
+//              vehicle_milage = miles_driven/refilled_gallons
 
 use std::env;
 
@@ -25,7 +26,7 @@ fn main() {
     */
 
     let args: Vec<String> = env::args().collect();
-    
+
     println!("{:?}", args);
 
 }
