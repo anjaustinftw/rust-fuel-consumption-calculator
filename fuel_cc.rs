@@ -9,7 +9,7 @@
 use std::env;
 
 fn main() {
-    
+
     // println!("Welcome to the Fuel Consumption Calculator!\nPress <ENTER> to continue...");
 
     /* To enable minigrep to read the values of command line arguments we pass to it,
@@ -25,6 +25,7 @@ fn main() {
     */
 
     let args: Vec<String> = env::args().collect();
+    
     println!("{:?}", args);
 
 }
