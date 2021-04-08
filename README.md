@@ -6,7 +6,7 @@ This is my first command line interface program in Rust. Its function is to calc
 
 This is the core implementation of the calculator.
 
-> `<miles_driven/refilled_gallons>`
+> `miles_driven/refilled_gallons`
 
 ### License
 The Fuel Consumption Calculator is licensed under the terms of the GNU General Public License version 3.
