@@ -21,7 +21,9 @@ This is my first command line interface program in Rust. Its function is to calc
 
 > `Try, ./fuel_cc or fuel_cc.exe 91525 91624 4.73.`
 
-> `$  `
+> `$ ./fuel_cc 91525 91624 4.73
+Start miles = 91525, End miles = 91624, Refill = 4.73 gallons.
+Miles driven = 99, and miles per gallon = 20.930233.`
 
 ### Windows 10
 
