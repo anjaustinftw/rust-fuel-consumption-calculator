@@ -46,7 +46,7 @@ fn main() {
     }
     else { // Command line arguments do not exist
 
-        println!("Usage: ./[fuel_cc].exe [start miles (u32: Must be a positive integer.)] [end miles (u32: Must be a positive integer greater in value than the \'start miles\' value.)] [gallons refilled (f32: Should contain decimal.)]\nTry, ./fuel_cc or fuel_cc.exe 91525 91624 4.73.");
+        println!("Usage: ./[fuel_cc].exe [start miles (u32: Must be a positive integer.)] [end miles (u32: Must be a positive integer greater in value than the \'start miles\' value.)] [gallons refilled (f32: Should contain a decimal.)]\nTry, ./fuel_cc or fuel_cc.exe 91525 91624 4.73.");
 
     }
    
