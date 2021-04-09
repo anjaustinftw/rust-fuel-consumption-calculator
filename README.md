@@ -12,18 +12,20 @@ This is the core implementation of the calculator.
 
 > #### Linux
 > `~$ rustc fuel_cc.rs`
->
+
 > `~$ sudo chmod +x fuel_cc`
->
+
 > `~$ ./fuel_cc`
 
 > `Usage: ./[fuel_cc].exe [start miles (u32: Must be a positive integer.)] [end miles (u32: Must be a positive integer greater in value than the 'start miles' value.)] [gallons refilled (f32: Should contain decimal.)]`
 
 > #### Windows 10
 > `C:\>rustc fuel.rs`
->
+
 > `C:\>fuel_cc.exe`
+
 > `Usage: ./[fuel_cc].exe [start miles (u32: Must be a positive integer.)] [end miles (u32: Must be a positive integer greater in value than the 'start miles' value.)] [gallons refilled (f32: Should contain decimal.)]`
+
 > `C:\>`
 
 ### License
