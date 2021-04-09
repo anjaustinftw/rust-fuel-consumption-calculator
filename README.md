@@ -19,6 +19,8 @@ This is my first command line interface program in Rust. Its function is to calc
 
 > `Usage: ./[fuel_cc].exe [start miles (u32: Must be a positive integer.)] [end miles (u32: Must be a positive integer greater in value than the 'start miles' value.)] [gallons refilled (f32: Should contain decimal.)]`
 
+> `~$ `
+
 ### Windows 10
 > `C:\>rustc fuel.rs`
 
