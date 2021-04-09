@@ -10,6 +10,8 @@
 //              _miles_per_gallon = _miles_driven/_refilled_gallons
 
 use std::env;
+use std::collections::HashMap;
+use std::fmt::Display;
 
 fn main() {
 
@@ -30,7 +32,6 @@ fn main() {
     // Collect command line arguments into an array
     let args: Vec<String> = env::args().collect();
 
-    
     if args.len() > 1 { // Command line arguments exist
 
         let _start_miles:       u32   = args[1].parse::<u32>().unwrap_or(0);
@@ -39,9 +40,20 @@ fn main() {
         let _miles_driven:      f32   = (_end_miles - _start_miles) as f32;
         let _miles_per_gallon:  f32   = _miles_driven/_refilled_gallons;
     
-        println!("Start miles = {0}, End miles = {1}, Refill = {2} gallons.", _start_miles, _end_miles, _refilled_gallons);
+        /*  
+            Rust noobs, prepare thyselves.
+            Rust is gonna make you work for your Associative Arrays.
+        */
+        let mut vehicle_data: HashMap<&str, Box<dyn Display + 'static>> = HashMap::new();
+        vehicle_data.insert("start", Box::new(_start_miles));
+        vehicle_data.insert("end", Box::new(_end_miles));
+        vehicle_data.insert("gl", Box::new(_refilled_gallons));
+        vehicle_data.insert("mi", Box::new(_miles_driven));
+        vehicle_data.insert("mpg", Box::new(_miles_per_gallon));
+
+        println!("Start miles = {0}, End miles = {1}, Refill = {2} gallons.", vehicle_data["start"], vehicle_data["end"], vehicle_data["gl"]);
     
-        println!("Miles driven = {0}, and miles per gallon = {1}.", _miles_driven, _miles_per_gallon);
+        println!("Miles driven = {0}, and miles per gallon = {1}.", vehicle_data["mi"], vehicle_data["mpg"]);
      
     }
     else { // Command line arguments do not exist
