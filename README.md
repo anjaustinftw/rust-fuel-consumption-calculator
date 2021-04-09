@@ -14,7 +14,7 @@ This is my first command line interface program in Rust. Its function is to calc
 
 > `~$ sudo chmod +x fuel_cc`
 
-#### Get usage at the command line by calling the executable without any arguments
+#### Get usage at the command line by calling the executable without any arguments.
 > `~$ ./fuel_cc`
 
 > `Usage: ./[fuel_cc].exe [start miles (u32: Must be a positive integer.)] [end miles (u32: Must be a positive integer greater in value than the 'start miles' value.)] [gallons refilled (f32: Should contain decimal.)]`
@@ -25,7 +25,7 @@ This is my first command line interface program in Rust. Its function is to calc
 
 > `C:\>rustc fuel_cc.rs`
 
-#### Get usage at the command line by calling the executable without any arguments
+#### Get usage at the command line by calling the executable without any arguments.
 > `C:\>fuel_cc.exe`
 
 > `Usage: ./[fuel_cc].exe [start miles (u32: Must be a positive integer.)] [end miles (u32: Must be a positive integer greater in value than the 'start miles' value.)] [gallons refilled (f32: Should contain decimal.)]`
