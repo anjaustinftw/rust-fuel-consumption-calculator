@@ -28,7 +28,8 @@ This is my first command line interface program in Rust. Its function is to calc
 > `Miles driven = 99, and miles per gallon = 20.930233.`
 
 > `$  `
-
+ 
+ 
 ### Windows 10
 
 > `C:\>rustc fuel_cc.rs`
@@ -47,9 +48,11 @@ This is my first command line interface program in Rust. Its function is to calc
 > `Miles driven = 99, and miles per gallon = 20.930233.`
 
 > `C:\>  `
-
+ 
+ 
 ## License
 The Fuel Consumption Calculator is licensed under the terms of the GNU General Public License version 3.
+ 
 
 ## Credits
 ##### Aaron N. Josserand-Austin
