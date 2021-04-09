@@ -36,8 +36,8 @@ fn main() {
         let _start_miles:       u32   = args[1].parse::<u32>().unwrap_or(0);
         let _end_miles:         u32   = args[2].parse::<u32>().unwrap_or(0);
         let _refilled_gallons:  f32   = args[3].parse::<f32>().unwrap_or(0.0);
-        let _miles_driven:       f32   = (_end_miles - _start_miles) as f32;
-        let _miles_per_gallon:   f32   = _miles_driven/_refilled_gallons;
+        let _miles_driven:      f32   = (_end_miles - _start_miles) as f32;
+        let _miles_per_gallon:  f32   = _miles_driven/_refilled_gallons;
     
         println!("Start miles = {0}, End miles = {1}, Refill = {2} gallons.", _start_miles, _end_miles, _refilled_gallons);
     
@@ -46,7 +46,7 @@ fn main() {
     }
     else { // Command line arguments do not exist
 
-        println!("Usage: ./fuel_cc [start miles (Must be a positive integer.)] [end miles (Must be a positive integer greater in value than the \'start miles\' value.)] [gallons refilled (May contain decimals.)]");
+        println!("Usage: ./fuel_cc|fuel.exe [start miles (Must be a positive integer.)] [end miles (Must be a positive integer greater in value than the \'start miles\' value.)] [gallons refilled (Should contain decimal.)]");
 
     }
    
