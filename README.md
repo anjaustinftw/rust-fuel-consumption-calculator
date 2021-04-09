@@ -22,8 +22,8 @@ This is the core implementation of the calculator.
 > `C:\>rustc fuel.rs`
 >
 > `C:\>fuel_cc.exe`
->`Usage: ./[fuel_cc].exe [start miles (u32: Must be a positive integer.)] [end miles (u32: Must be a positive integer greater in value than the 'start miles' value.)] [gallons refilled (f32: Should contain decimal.)]
->C:\>`
+> `Usage: ./[fuel_cc].exe [start miles (u32: Must be a positive integer.)] [end miles (u32: Must be a positive integer greater in value than the 'start miles' value.)] [gallons refilled (f32: Should contain decimal.)]
+> C:\>`
 
 ### License
 The Fuel Consumption Calculator is licensed under the terms of the GNU General Public License version 3.
