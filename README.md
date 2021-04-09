@@ -1,6 +1,7 @@
 # Fuel Consumption Calculator
 
-This is my first command line interface program in Rust. Its function is to calculate the gas milage of a car based on actual miles driven and the amount of fuel required to top off the vehicle's tank.
+This is my first command line interface program in Rust. Its function is to calculate the gas mileage of a car based on actual miles driven and the amount of fuel required to top off the vehicle's tank.
+ 
 ### How to calculate the milage of a car
 
 This is the core implementation of the calculator.
