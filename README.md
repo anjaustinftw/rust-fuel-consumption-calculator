@@ -6,7 +6,8 @@ This is my first command line interface program in Rust. Its function is to calc
 
 #### This is the core implementation of the calculator.
 
-> `miles_driven/refilled_gallons`
+> `  Calculate:  _miles_driven = _end_miles - _start_miles`
+> `              _miles_per_gallon = _miles_driven/_refilled_gallons`
 
 ## Compile for your system and run locally
 ### Linux
