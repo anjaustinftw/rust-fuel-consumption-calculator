@@ -1,11 +1,12 @@
 # Fuel Consumption Calculator
+I am becoming exceedingly efficient at starting over from scratch. My first course in Computer Science was programming BASIC in DOS. This project was our first assignment.
 
-This is my first command line interface program in Rust. Its function is to calculate the gas mileage of a vehicle based on actual miles driven and the amount of fuel required to top off the vehicle's tank.
+## Project Description
+The following is my first command line interface program in Rust. Its function is to calculate the gas mileage of a vehicle based on actual miles driven and the amount of fuel required to top off the vehicle's tank.
  
 ## Calculate the rate of fuel consumption
 
 #### Core Implementation
-
 > `Calculate:  _miles_driven = _end_miles - _start_miles, _miles_per_gallon = _miles_driven/_refilled_gallons`
 
 ## Compile & Run
