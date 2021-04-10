@@ -50,9 +50,11 @@ This is my first command line interface program in Rust. Its function is to calc
 The Fuel Consumption Calculator is licensed under the terms of the GNU General Public License version 3.
  
 
-## Credits
-##### Aaron N. Josserand-Austin
-
 ## My Gratitude for these Essential References 
 ##### https://doc.rust-lang.org/book/ch12-01-accepting-command-line-arguments.html
 ##### https://www.simonewebdesign.it/rust-hashmap-insert-values-multiple-types/
+ 
+ 
+## Credits
+##### Aaron N. Josserand-Austin
+  
