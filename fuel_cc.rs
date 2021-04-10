@@ -50,11 +50,11 @@ fn main() {
 
         let mut vehicle_data: HashMap<&str, Box<dyn Display + 'static>> = HashMap::new();
 
-        vehicle_data.insert("start",    Box::new(_start_miles));
-        vehicle_data.insert("end",      Box::new(_end_miles));
-        vehicle_data.insert("gl",       Box::new(_refilled_gallons));
-        vehicle_data.insert("mi",       Box::new(_miles_driven));
-        vehicle_data.insert("mpg",      Box::new(_miles_per_gallon));
+        vehicle_data.insert("start",    Box::new(_start_miles));        // miles at full tank
+        vehicle_data.insert("end",      Box::new(_end_miles));          // miles at tank top off
+        vehicle_data.insert("gl",       Box::new(_refilled_gallons));   // gallons to top off
+        vehicle_data.insert("mi",       Box::new(_miles_driven));       // miles driven from _start_ to _end_miles
+        vehicle_data.insert("mpg",      Box::new(_miles_per_gallon));   // average number of miles per gallon of consumed fuel
 
         println!("[start:{},end:{},gl:{},mi:{},mpg:{}]", vehicle_data["start"], vehicle_data["end"], vehicle_data["gl"], vehicle_data["mi"], vehicle_data["mpg"]);
 
