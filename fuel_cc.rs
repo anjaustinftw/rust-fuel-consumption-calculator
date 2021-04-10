@@ -12,6 +12,7 @@
 use std::env;
 use std::fmt::Display;
 use std::collections::HashMap;
+use std::process;
 
 fn main() {
 
@@ -32,11 +33,17 @@ fn main() {
     // Collect command line arguments into an array
     let args: Vec<String> = env::args().collect();
 
-    if args.len() > 1 { // Command line arguments exist
+    if args.len() == 4 { // Command line arguments exist
 
         let _start_miles:       u32   = args[1].parse::<u32>().unwrap_or(0);
         let _end_miles:         u32   = args[2].parse::<u32>().unwrap_or(0);
         let _refilled_gallons:  f32   = args[3].parse::<f32>().unwrap_or(0.0);
+
+        if _start_miles == 0 || _end_miles == 0 || _refilled_gallons == 0.0 {
+            
+            println!("We cannot multiply zero values or non-numbers.");
+            process::exit(1);
+        }
         let _miles_driven:      f32   = (_end_miles - _start_miles) as f32;
         let _miles_per_gallon:  f32   = _miles_driven/_refilled_gallons;
     
