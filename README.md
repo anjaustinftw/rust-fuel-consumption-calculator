@@ -1,5 +1,5 @@
 # Fuel Consumption Calculator
-I am becoming exceedingly efficient at starting from scratch. My first course in Computer Science was programming BASIC in DOS. This project was our first assignment.
+My first course in Computer Science was programming BASIC in DOS. This project was our first assignment.
 
 ## Project Description
 The following is my first command line interface program in Rust. Its function is to calculate the gas mileage of a vehicle based on actual miles driven and the amount of fuel required to top off the vehicle's tank.
