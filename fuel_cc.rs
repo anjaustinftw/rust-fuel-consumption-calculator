@@ -56,10 +56,6 @@ fn main() {
         vehicle_data.insert("mi", Box::new(_miles_driven));
         vehicle_data.insert("mpg", Box::new(_miles_per_gallon));
 
-        // println!("Start miles = {0}, End miles = {1}, Refill = {2} gallons.", vehicle_data["start"], vehicle_data["end"], vehicle_data["gl"]);
-    
-        // println!("Miles driven = {0}, and miles per gallon = {1}.", vehicle_data["mi"], vehicle_data["mpg"]);
-
         println!("[start:{},end:{},gl:{},mi:{},mpg:{}]", vehicle_data["start"], vehicle_data["end"], vehicle_data["gl"], vehicle_data["mi"], vehicle_data["mpg"]);
 
     }
