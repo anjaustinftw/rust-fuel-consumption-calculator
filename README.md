@@ -52,3 +52,7 @@ The Fuel Consumption Calculator is licensed under the terms of the GNU General P
 
 ## Credits
 ##### Aaron N. Josserand-Austin
+
+## My Gratitude for these Essential References 
+##### https://doc.rust-lang.org/book/ch12-01-accepting-command-line-arguments.html
+##### https://www.simonewebdesign.it/rust-hashmap-insert-values-multiple-types/
