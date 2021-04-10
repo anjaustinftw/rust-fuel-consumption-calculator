@@ -7,7 +7,7 @@ The following is my first command line interface program in Rust. Its function i
 ## Calculate the rate of fuel consumption
 
 #### Core Implementation
-> `Calculate:  _miles_driven = _end_miles - _start_miles, _miles_per_gallon = _miles_driven/_refilled_gallons`
+> `Calculate:  _miles_driven = _end_miles - _start_miles,\n_miles_per_gallon = _miles_driven/_refilled_gallons`
 
 ## Compile & Run
 ### Linux
