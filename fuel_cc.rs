@@ -41,14 +41,15 @@ fn main() {
 
         if _start_miles == 0 || _end_miles == 0 || _refilled_gallons == 0.0 {
             
-            println!("We cannot multiply zero values or non-numbers.");
+            println!("We do not multiply zero values or non-numbers.");
             process::exit(1);
         }
+
         let _miles_driven:      f32   = (_end_miles - _start_miles) as f32;
         let _miles_per_gallon:  f32   = _miles_driven/_refilled_gallons;
     
         /*  
-            Rust noobs, prepare thyselves.
+            Noobs, prepare thyselves.
             Rust is gonna make you work for your Associative Arrays.
 
             I didn't figure this out on my own:
