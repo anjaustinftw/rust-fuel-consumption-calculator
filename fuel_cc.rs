@@ -1,4 +1,4 @@
-// v0.5.1
+// v0.5.8
 
 // Fuel Consumption Calculator
 // INTERFACES
@@ -10,8 +10,8 @@
 //              _miles_per_gallon = _miles_driven/_refilled_gallons
 
 use std::env;
-use std::collections::HashMap;
 use std::fmt::Display;
+use std::collections::HashMap;
 
 fn main() {
 
