@@ -10,9 +10,9 @@
 //              _miles_per_gallon = _miles_driven/_refilled_gallons
 
 use std::env;
+use std::process;
 use std::fmt::Display;
 use std::collections::HashMap;
-use std::process;
 
 fn main() {
 
