@@ -23,9 +23,7 @@ This is my first command line interface program in Rust. Its function is to calc
 
 > `$ ./fuel_cc 91525 91624 4.73`
 
-> `Start miles = 91525, End miles = 91624, Refill = 4.73 gallons.`
-
-> `Miles driven = 99, and miles per gallon = 20.930233.`
+> `[start:91525,end:91624,gl:4.73,mi:99,mpg:20.930233]`
 
 > `$  `
  
@@ -43,9 +41,7 @@ This is my first command line interface program in Rust. Its function is to calc
 
 > `C:\>fuel_cc 91525 91624 4.73`
 
-> `Start miles = 91525, End miles = 91624, Refill = 4.73 gallons.`
-
-> `Miles driven = 99, and miles per gallon = 20.930233.`
+> `[start:91525,end:91624,gl:4.73,mi:99,mpg:20.930233]`
 
 > `C:\>  `
  
