@@ -9,7 +9,7 @@ The following is my first command line interface program in Rust. Its function i
 > `INPUTS: _start_miles, _end_miles, _refilled_gallons`
 > `OUTPUTS: ad hoc INPUTS, _miles_driven, _miles_per_gallon`
 
-#### Core Implementation
+#### Implementation
 > `CALCULATE:  _miles_driven = _end_miles - _start_miles, _miles_per_gallon = _miles_driven/_refilled_gallons`
 
 ## Compile & Run
