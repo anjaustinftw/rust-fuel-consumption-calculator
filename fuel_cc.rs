@@ -52,8 +52,9 @@ fn main() {
             Noobs, prepare thyselves.
             Rust is gonna make you work for your Associative Arrays.
 
-            I didn't figure this out on my own:
-            https://www.simonewebdesign.it/rust-hashmap-insert-values-multiple-types/
+            I didn't figure this out on my own.
+            
+            SOURCE: https://www.simonewebdesign.it/rust-hashmap-insert-values-multiple-types/
         */
 
         let mut vehicle_data: HashMap<&str, Box<dyn Display + 'static>> = HashMap::new();
