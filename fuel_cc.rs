@@ -2,8 +2,8 @@
 
 // Fuel Consumption Calculator
 // INTERFACES
-//  INPUTS:    {_start_miles, _end_miles, _refilled_gallons}
-//  OUTPUTS:   {_miles_driven, _refilled_gallons, _miles_per_gallon}
+//  INPUTS:    _start_miles, _end_miles, _refilled_gallons
+//  OUTPUTS:   _miles_driven, _refilled_gallons, _miles_per_gallon
 //
 // IMPLEMENTATION:
 //  Calculate:  _miles_driven = _end_miles - _start_miles
